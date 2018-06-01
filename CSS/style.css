@@ -1,50 +1,75 @@
 
 header{
 	background-color: red;
-	height: 70px;
+	height: 65px;
+
 
 }
 .logo{
 	float:left;
+	padding-left: 10px;
+	padding-top: 2px;
 }  
 .social{
 	float:right;
+	padding-right: 5px;
+}
+#twitter{
+	padding-top: 6px;
 }
 
 li a{
 	
-    color: red;
-    text-align: center;
-    font-size: 50px;
+    color: black;
+/*    text-align: center;*/
+    font-size: 45px;
     text-decoration: none;
-    width: 10px;
-
-  
+    width: all;
 }
+
 .list{
 
 	float: left;
 	width: 20%;
 	height: 890px;
+
 	
 }
 
-.list li a:hover {
-    background-color: black;
-    height: 5px;
+.list ul a:hover {
+    background-color:#ff3232;
+    color: white;
+    display: block;
+    width: 100%;
+    
 
 }
 .head{
 	font-size: 20px;
+	text-align: justify;
+	padding: 7px;
+
+}
+.head h1{
+	font-weight: bold;
+	font-size: 30px;
+
+
+}
+.head p{
+	padding-top: 20px;
+	padding-bottom: 65px;
 }
 footer{
 	background-color: red;
 	height: 70px;
-
-
+	
 }
 .last{
+	
 	float: right;
-	font-size: 30px;
+	font-size: 15px;
+	padding-top: 25px;
+	font-weight: bold;
 
 }
