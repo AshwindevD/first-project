@@ -1,0 +1,50 @@
+
+header{
+	background-color: red;
+	height: 70px;
+
+}
+.logo{
+	float:left;
+}  
+.social{
+	float:right;
+}
+
+li a{
+	
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    width: 10px;
+
+  
+}
+.list{
+
+	float: left;
+	width: 20%;
+	height: 890px;
+	
+}
+
+.list li a:hover {
+    background-color: black;
+    height: 5px;
+
+}
+.head{
+	font-size: 20px;
+}
+footer{
+	background-color: red;
+	height: 70px;
+
+
+}
+.last{
+	float: right;
+	font-size: 30px;
+
+}
