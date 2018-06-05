@@ -9,10 +9,12 @@ header{
 	float:left;
 	padding-left: 10px;
 	padding-top: 2px;
+
 }  
 .social{
 	float:right;
 	padding-right: 5px;
+	padding-bottom: 12px;
 }
 #twitter{
 	padding-top: 6px;
@@ -26,12 +28,20 @@ li a{
     text-decoration: none;
     width: all;
 }
+.full-body{
+	
+	overflow: hidden;
+}
+.row1{
+	float: left;
+}
 
 .list{
 
 	float: left;
 	width: 20%;
-	height: 890px;
+	height:436px;
+	background-color: #849483;
 
 	
 }
@@ -45,24 +55,120 @@ li a{
 
 }
 .head{
-	font-size: 20px;
+
 	text-align: justify;
 	padding: 7px;
+	height: 400px;
+	overflow-y: scroll;
 
 }
 .head h1{
 	font-weight: bold;
-	font-size: 30px;
+
+
+
+
+}
+
+
 
 
 }
 .head p{
 	padding-top: 20px;
-	padding-bottom: 65px;
+	padding-bottom: 80px;
+	text-align: justify;
+	font-size: 20px;
+	
 }
+.head h1{
+	padding-bottom: 12px;
+}
+.engine{
+	width: 400px;
+	float: left;
+	padding: 20px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: hidden;
+}
+.suspension{
+	float: left;
+	padding: 20px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: hidden;
+	padding-left: 15px;
+	margin-left: 8%;
+
+
+}
+.car{
+	float: left;
+	padding: 20px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: hidden;
+	padding-left: 15px;
+	margin-left: 25%;
+	margin-top: 50px;
+
+}
+.alloys{
+	float: left;
+	padding: 30px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: hidden;
+	padding-left: 15px;
+	margin-left: 8%;
+	margin-top: 53px;
+
+
+
+}
+
+.input1{
+	
+	height: 200px;
+	width: 70%;
+	float: left;
+
+	margin-left:  15px;
+}
+.input2{
+	margin-left: 15%;
+	
+}
+.input3{
+	width: 70%;
+	box-sizing: border-box;
+	border: 2px solid black;
+	padding: 10px 10px;
+	border-radius: 3px;
+	margin-top: 8px;
+	
+
+}
+.input4{
+	text-align: center;
+	margin-right:43px;
+}
+.input5{
+	font-size: 20px;
+	border-radius: 6px;
+	border: 1px solid black;
+
+}
+
+
+
+
+
 footer{
 	background-color: red;
 	height: 70px;
+
 	
 }
 .last{
@@ -72,4 +178,8 @@ footer{
 	padding-top: 25px;
 	font-weight: bold;
 
+
+}
+.index-footer{
+	margin-top: 22px;
 }
